@@ -1,7 +1,7 @@
 import React from 'react';
 import Post from './Post';
 import './Posts.css';
-
+import SearchBar from '../SearchBar/SearchBar';
 const Posts = (props) => {
   // 🔥 Make sure the parent of Posts is passing the right props!
   const { posts } = props;
@@ -14,7 +14,11 @@ const Posts = (props) => {
        {
          
          posts.map((post) => {
-           return <Post post={post}/>
+           return(
+             <div>
+               <Post post={post}/>
+             </div>
+           ) 
          })
 
        }

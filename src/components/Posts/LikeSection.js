@@ -5,7 +5,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons';
-import userEvent from '@testing-library/user-event';
+
 
 const LikeSection = props => {
   // 🔥 Make sure the parent of LikeSection is passing the right props!
